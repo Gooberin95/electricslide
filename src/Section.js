@@ -12,7 +12,7 @@ function Section({title, subtitle, dark, id, color}) {
 		<div className={"section" + (dark ? " section-dark" : "")} style={sectionStyle}>
 		 <div className="section-content" id={id}>
 			<h1>{title}</h1>
-			<p>{subtitle}</p>
+			<p style={{fontSize: "160%"}}>{subtitle}</p>
 		 </div>
 		</div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import photo from './currentlogo.png'
 
-function Section({ title, subtitle, dark, id, color }) {
+function Section({ title, subtitle, dark, id, color}) {
 	  const sectionStyle = {
 		      display: 'flex',
 		      
@@ -34,7 +34,6 @@ function Section({ title, subtitle, dark, id, color }) {
 		          <div style={rightColumnStyle}>
 		            <h1>{title}</h1>
 		            <p style={subtitleStyle}>
-		              {subtitle}
 		              {subtitle}
 		            </p>
 		          </div>

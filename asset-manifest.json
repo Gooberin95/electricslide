@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/electricslide/static/css/main.e35086e1.css",
-    "main.js": "/electricslide/static/js/main.2e7c5db7.js",
+    "main.js": "/electricslide/static/js/main.d7857cf5.js",
     "static/media/electrictwo.jpg": "/electricslide/static/media/electrictwo.c065dd5990ec65905730.jpg",
     "static/media/electricone.jpg": "/electricslide/static/media/electricone.248596261a34fe532040.jpg",
     "static/media/electricthree.jpg": "/electricslide/static/media/electricthree.a2896881ee86ec26333a.jpg",
     "static/media/Original.png": "/electricslide/static/media/Original.dcae5578336eae64979b.png",
     "index.html": "/electricslide/index.html",
     "main.e35086e1.css.map": "/electricslide/static/css/main.e35086e1.css.map",
-    "main.2e7c5db7.js.map": "/electricslide/static/js/main.2e7c5db7.js.map"
+    "main.d7857cf5.js.map": "/electricslide/static/js/main.d7857cf5.js.map"
   },
   "entrypoints": [
     "static/css/main.e35086e1.css",
-    "static/js/main.2e7c5db7.js"
+    "static/js/main.d7857cf5.js"
   ]
 }

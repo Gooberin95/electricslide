@@ -1,4 +1,4 @@
-import logo from './sheep.png';
+import logo from './currentlogo.png';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
@@ -11,14 +11,15 @@ function Topnav() {
 		<>
 		<Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
 		 <Container>
-		 <Navbar.Brand>
-		 <img alt="" src={logo} width="50" height="50"/>
+		 <Navbar.Brand style={{color: "#ff9900"}}>
+		 <img alt="" src={logo} width="60"  height="60"/>
 		 {' '}
+	
 		Current Connections
 		</Navbar.Brand>
 		<Navbar.Toggle aria-controls="basic-navbar-nav"/>
 		<Navbar.Collapse id="basic-navbar-nav">
-			<Nav className="me-auto" style={{color: "white"}}>
+			<Nav className="me-auto">
 				<Nav.Link>
 					<ScrollLink to="section1" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
 					Section1

@@ -12,9 +12,10 @@ function App() {
   return (
 	  <>
 	  <Topnav/>
+	  <div style={{height: "70px"}}></div>
+	  <Gallery/>
 	  <Section color="#FDC168" id="section1" title="About" subtitle={data}/>
 	  <Section color="#FFF1DC" id="section2" title="Services" subtitle={data}/>
-	 <Gallery/> 
 	  <Section color="#FDC168" id="section3" title="Estimates" subtitle={points} />
 	  <div style={{height: "45px"}}></div>
 	  <Footer/>

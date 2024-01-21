@@ -1,32 +1,46 @@
 import React from 'react';
-
+import photo from './currentlogo.png'
 
 function Section({ title, subtitle, dark, id, color }) {
-	    const sectionStyle = {
-		            backgroundColor: color || (dark ? "#333" : "#fff"),
-		            border: "solid",
-		            marginTop: "25px",
-		            borderRadius: "10px",
-		            textAlign: "center", // Align text to the right
-		        };
+	  const sectionStyle = {
+		      display: 'flex',
+		      
+		      backgroundColor: color || (dark ? '#333' : '#fff'),
+		      border: 'solid',
+		      marginTop: '25px',
+		      borderRadius: '10px',
+		    };
 
-	    const subtitleStyle = {
-		            fontSize: "130%",
-		        };
+	  const leftimg = {
+		      float: 'left',
+		      padding: '20px', // Adjust the padding as needed
+		    };
 
-	    return (
-		            <div className={"section" + (dark ? " section-dark" : "")} style={sectionStyle}>
-		                <div className="section-content" id={id}>
-		                    <h1>{title}</h1>
+	  const rightColumnStyle = {
+		      flex: '0',
+		      padding: '20px', // Adjust the padding as needed
+		    };
 
-		                    <p style={subtitleStyle}>
-		                        {subtitle}
-		                        <br />
-		                        {subtitle}
-		                    </p>
-		                </div>
-		            </div>
-		        );
+	  const subtitleStyle = {
+		      fontSize: '130%',
+		    };
+
+	  return (
+		      <div className={`section${dark ? ' section-dark' : ''}`} style={sectionStyle}>
+		        <div className="section-content" id={id}>
+		          <div style={leftimg}>
+		  		<img  src={photo} alt="photo"/>
+		          </div>
+		          <div style={rightColumnStyle}>
+		            <h1>{title}</h1>
+		            <p style={subtitleStyle}>
+		              {subtitle}
+		              {subtitle}
+		            </p>
+		          </div>
+		        </div>
+		      </div>
+		    );
 }
 
 export default Section;

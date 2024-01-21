@@ -9,7 +9,7 @@ function Topnav() {
 
 	return (
 		<>
-		<Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
+		<Navbar sticky="top" expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
 		 <Container>
 		 <Navbar.Brand style={{color: "#ff9900"}}>
 		 <img alt="" src={logo} width="60"  height="60"/>
@@ -21,7 +21,7 @@ function Topnav() {
 		<Navbar.Collapse id="basic-navbar-nav">
 			<Nav className="me-auto">
 				<Nav.Link>
-					<ScrollLink to="section1" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
+					<ScrollLink to="section1" spy={true} smooth={true} offset={-100} duration={500} className="nav-link">
 					About
 					</ScrollLink>
 				</Nav.Link>
@@ -36,7 +36,7 @@ function Topnav() {
 					</ScrollLink>
 				</Nav.Link>
 				<Nav.Link>
-					<ScrollLink to="section4" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
+					<ScrollLink to="section4" spy={true} smooth={true} offset={-100} duration={500} className="nav-link">
 					Gallery
 					</ScrollLink>
 				</Nav.Link>

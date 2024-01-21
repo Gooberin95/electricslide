@@ -7,7 +7,8 @@ function Section({ title, subtitle, dark, id, color}) {
 		      
 		      backgroundColor: color || (dark ? '#333' : '#fff'),
 		      border: 'solid',
-		      marginTop: '25px',
+		      marginTop: '100px',
+		      marginBottom: '250px',
 		      borderRadius: '10px',
 		    };
 
@@ -22,7 +23,7 @@ function Section({ title, subtitle, dark, id, color}) {
 		    };
 
 	  const subtitleStyle = {
-		      fontSize: '130%',
+		      fontSize: '100%',
 		    };
 
 	  return (

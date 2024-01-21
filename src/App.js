@@ -11,10 +11,12 @@ function App() {
   return (
 	  <>
 	  <Topnav/>
-	  <Section color="#FDC168" id="section1" title="section1" subtitle={data}/>
-	  <Section color="#FFF1DC" id="section2" title="section2" subtitle={data}/>
-	  <Section color="#FDC168" id="section3" title="section3" subtitle={data}/>
-	  <Section color="#FFF1DC" id="section4" title="section4" subtitle={data}/>
+	  <Section color="#FDC168" id="section1" title="About" subtitle={data}/>
+	  <Section color="#FFF1DC" id="section2" title="Services" subtitle={data}/>
+	  <Section color="#FDC168" id="section3" title="Estimates" subtitle={data}/>
+	  <Section color="#FFF1DC" id="section4" title="Gallery" subtitle={data}/>
+	  <div style={{height: "45px"}}>
+	  </div>
 	  <Footer/>
 	  
 	  </>

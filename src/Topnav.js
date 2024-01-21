@@ -22,22 +22,22 @@ function Topnav() {
 			<Nav className="me-auto">
 				<Nav.Link>
 					<ScrollLink to="section1" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
-					Section1
+					About
 					</ScrollLink>
 				</Nav.Link>
 				<Nav.Link>
 					<ScrollLink to="section2" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
-					Section2
+					Services
 					</ScrollLink>
 				</Nav.Link>
 				<Nav.Link>
 					<ScrollLink to="section3" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
-					Section3
+					Estimates
 					</ScrollLink>
 				</Nav.Link>
 				<Nav.Link>
 					<ScrollLink to="section4" spy={true} smooth={true} offset={-70} duration={500} className="nav-link">
-					Section4
+					Gallery
 					</ScrollLink>
 				</Nav.Link>
 

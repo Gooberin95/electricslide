@@ -12,7 +12,7 @@ function Footer () {
 	return ( 
 		<>
 		<div className="fixed-bottom">
-		 <Navbar style={{backgroundColor:"rgb(43,48,53)"}}>
+		 <Navbar style={{backgroundColor:"rgb(43,48,53)", marginTop: "100px"}}>
 		<Container className="justify-content-center">
 	<Nav.Link style={{marginRight: "20px", marginLeft: "20px", color: "white"}} href="#"><SiUpwork/></Nav.Link>
 	<Nav.Link style={{marginRight: "20px", marginLeft: "20px", color: "white"}} href="#"><FaLinkedin/></Nav.Link>

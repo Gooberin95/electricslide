@@ -12,7 +12,7 @@ function Footer() {
 	    return (
 		            <>
 		                <div className="fixed-bottom">
-		                    <Navbar style={{ backgroundColor: "rgb(43,48,25)", height: "155px" }}>
+		                    <Navbar style={{ backgroundColor: "rgb(43,48,25)", height: "100px" }}>
 		                        <Container className="justify-content-between align-items-center">
 		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#">123-123-1234</Nav.Link>
 		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"> © 2024 Current Connections LLC. All Rights Reserved <FaBoltLightning /></Nav.Link>

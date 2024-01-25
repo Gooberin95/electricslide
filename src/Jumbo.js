@@ -9,7 +9,7 @@ function Jumbo() {
 		<div className={style["hero-image"]}>
 		  <div className={style["hero-text"]}>
 		    <h1>Visionary General Contractor LLC</h1>
-		    <Button variant="secondary">Hire Now</Button>
+
 		  </div>
 		</div>
 		</>

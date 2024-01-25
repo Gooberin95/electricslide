@@ -1,5 +1,6 @@
 import logo from './currentlogo.png';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { BsTelephone } from "react-icons/bs";
 import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
@@ -38,8 +39,11 @@ function Topnav() {
 								Gallery
 								</ScrollLink>
 							</Nav.Link>
-
+						
 						</Nav>
+			<Nav style={{marginRight: "200px", fontSize: "25px"}} >
+			<Nav.Link style={{color: "white"}}><BsTelephone/> 123 343 5212</Nav.Link>
+			</Nav>
 					</Navbar.Collapse>
 					
 					 </Container>

@@ -1,6 +1,4 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
-import photo from './Original.png';
 import style from './jumbo-style.module.css';
 
 function Jumbo() {

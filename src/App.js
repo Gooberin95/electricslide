@@ -6,10 +6,12 @@ import points from './Keypoint.js'
 import data from './LoremData';
 import Topnav from './Topnav';
 import Footer from './Footer';
+import Jumbo from './Jumbo';
 
 function App() {
   return (
 	  <>
+	  <Jumbo/>
 	  <Topnav/>
 	  <Section />
 	  <Footer/>

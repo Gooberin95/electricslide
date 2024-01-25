@@ -1,10 +1,6 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
 import { FaBoltLightning } from "react-icons/fa6";
-import { SiUpwork } from 'react-icons/si'
-import { FaLinkedin } from 'react-icons/fa'
-import { RiTwitterXLine } from 'react-icons/ri'
-import { FiGithub } from 'react-icons/fi'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 

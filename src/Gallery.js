@@ -62,10 +62,11 @@ const imageList = [
 ];
 	function Gallery() {
 		  const myStyle = {
-			      height: '100%px',
-			      width: '50%',
-			      border: 'solid 5px',
-			      borderRadius: '4px',
+			      height: '100%',
+			      width: '60%',
+			      marginTop: "20px",
+			      border: "solid grey"
+			     
 			    };
 		
 

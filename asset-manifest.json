@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/electricslide/static/css/main.ce74e7da.css",
-    "main.js": "/electricslide/static/js/main.3400f333.js",
-    "static/media/electrictwo.jpg": "/electricslide/static/media/electrictwo.c065dd5990ec65905730.jpg",
-    "static/media/electricone.jpg": "/electricslide/static/media/electricone.248596261a34fe532040.jpg",
-    "static/media/visionarytwo.jpg": "/electricslide/static/media/visionarytwo.c08a19cd95dd9023fd97.jpg",
-    "static/media/electricthree.jpg": "/electricslide/static/media/electricthree.a2896881ee86ec26333a.jpg",
-    "static/media/visionary.jpg": "/electricslide/static/media/visionary.8d0c5b0458a08222ef3f.jpg",
-    "static/media/Original.png": "/electricslide/static/media/Original.dcae5578336eae64979b.png",
+    "main.css": "/electricslide/static/css/main.77b05db5.css",
+    "main.js": "/electricslide/static/js/main.20431bcf.js",
+    "static/media/abraham.jpg": "/electricslide/static/media/abraham.4f6735627445968c05ad.jpg",
+    "static/media/chimney.jpg": "/electricslide/static/media/chimney.c2b8073d8ab2fa23db81.jpg",
+    "static/media/houselights.jpg": "/electricslide/static/media/houselights.c86a6bbcd03d9c3ffead.jpg",
+    "static/media/kitchen.jpg": "/electricslide/static/media/kitchen.3d4c29f7b024a7569c8f.jpg",
+    "static/media/abrahamSeven.jpg": "/electricslide/static/media/abrahamSeven.e8ad622b1edefe959168.jpg",
+    "static/media/abrahamOne.jpg": "/electricslide/static/media/abrahamOne.47c94e6e9bfc41cc93be.jpg",
+    "static/media/abrahamTwo.jpg": "/electricslide/static/media/abrahamTwo.47c94e6e9bfc41cc93be.jpg",
+    "static/media/abrahamThree.jpg": "/electricslide/static/media/abrahamThree.d9273c23c74ccc1187f1.jpg",
     "index.html": "/electricslide/index.html",
-    "main.ce74e7da.css.map": "/electricslide/static/css/main.ce74e7da.css.map",
-    "main.3400f333.js.map": "/electricslide/static/js/main.3400f333.js.map"
+    "main.77b05db5.css.map": "/electricslide/static/css/main.77b05db5.css.map",
+    "main.20431bcf.js.map": "/electricslide/static/js/main.20431bcf.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce74e7da.css",
-    "static/js/main.3400f333.js"
+    "static/css/main.77b05db5.css",
+    "static/js/main.20431bcf.js"
   ]
 }

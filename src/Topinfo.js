@@ -5,10 +5,10 @@ function Topinfo() {
 	return (
 		   <Nav fill  defaultActiveKey="/home">
 		      <Nav.Item>
-		        <Nav.Link eventKey="link-1">123-123-1234</Nav.Link>
+		        <Nav.Link eventKey="link-1">206-945-1830</Nav.Link>
 		      </Nav.Item>
 		      <Nav.Item>
-		        <Nav.Link eventKey="link-2">applebee@outlook.com</Nav.Link>
+		        <Nav.Link eventKey="link-2">Abrahamreyes1991@yahoo.com</Nav.Link>
 		      </Nav.Item>
 		      <Nav.Item>
 		        <Nav.Link eventKey="disabled" disabled>

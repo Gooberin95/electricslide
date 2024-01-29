@@ -65,6 +65,7 @@ const imageList = [
 			      height: '100%',
 			      width: '60%',
 			      marginTop: "20px",
+			     
 			      border: "solid grey"
 			     
 			    };
@@ -74,7 +75,7 @@ const imageList = [
 
 	return (
 				    <>
-				      <Carousel fade data-bs-theme="dark" style={{width: "100%", height: "80%"}}>
+				      <Carousel fade data-bs-theme="dark"  id="section4" style={{width: "100%", height: "80%"}}>
 					{imageList.map((imageUrl, index) => (
 							  <Carousel.Item key={index} interval={1000}>
 							    <img className="mx-auto d-block" style={myStyle} src={imageUrl} alt={`Slide ${index + 1}`} />

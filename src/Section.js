@@ -1,6 +1,7 @@
 import React from 'react';
-import sparks from './media/visionarytwo.jpg';
-import photo from './media/visionary.jpg';
+import chimney from './chimney.jpg';
+import trench from './abraham.jpg';
+import lights from './houselights.jpg';
 import styles from './my-style.module.css';
 import aboutdata from './aboutdata.js';
 import servicesdata from './servicesdata.js';
@@ -21,7 +22,7 @@ function Section() {
 		              <button className={styles.button}>Hire us now</button>
 		            </div>
 		            <div className={styles['column-33']}>
-		              <img src={photo} style={{ width: "335px", height: "471px" }} alt="App" />
+		              <img src={chimney} style={{ width: "535px", height: "471px", border: "solid grey", borderRadius: "4px" }} alt="App" />
 		            </div>
 		          </div>
 		        </div>
@@ -29,7 +30,7 @@ function Section() {
 		        <div className={styles.container} style={{ backgroundColor: '#f1f1f1' }}>
 		          <div className={styles.row}>
 		            <div className={styles['column-33']}>
-		              <img src={sparks} alt="App" width="335" height="471" />
+		              <img src={lights} alt="App" width="535" height="471" style={{borderRadius: "4px", border: "solid #996633 "}}/>
 		            </div>
 		            <div className={styles['column-66']} id="section2">
 		              <h1 className={styles['xlarge-font']}><b>Services</b></h1>
@@ -49,7 +50,7 @@ function Section() {
 		              <button className={styles.button}>Hire us now</button>
 		            </div>
 		            <div className={styles['column-33']}>
-		              <img src={photo} width="335" height="471" alt="App" />
+		              <img src={trench} width="535" style={{ borderRadius: "4px",border: "solid grey"}} height="471" alt="App" />
 		            </div>
 		          </div>
 		        </div>

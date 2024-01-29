@@ -1,10 +1,8 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Original from './Original.png';
-import One from './media/electricone.jpg';
-import Two from './media/electrictwo.jpg';
-import Three from './media/electricthree.jpg';
-
-import CurrentLogo from './currentlogo.png';  // Make sure the import is correct
+import Original from './abrahamSeven.jpg';
+import One from './abrahamOne.jpg';
+import Two from './abrahamTwo.jpg';
+import Three from './abrahamThree.jpg';
 
 function Gallery() {
 	const myStyle = {

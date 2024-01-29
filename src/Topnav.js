@@ -1,4 +1,4 @@
-import logo from './currentlogo.png';
+import { MdConstruction } from "react-icons/md";
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { BsTelephone } from "react-icons/bs";
 import React from 'react';
@@ -13,7 +13,7 @@ function Topnav() {
 					<Navbar sticky="top" expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
 					 <Container>
 					 <Navbar.Brand style={{color: "#ff9900", fontFamily: "Trirong, serif"}}>
-					 <img alt="" src={logo} width="60"  height="60" className="d-inline-block align-center"/>
+					 <img alt="" src=< MdConstruction/> width="60"  height="60" className="d-inline-block align-center"/>
 			{' '} Visionary GC LLC	
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav"/>

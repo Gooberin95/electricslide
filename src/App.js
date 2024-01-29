@@ -8,13 +8,16 @@ import Topnav from './Topnav';
 import Footer from './Footer';
 import Jumbo from './Jumbo';
 import Topinfo from './Topinfo';
-
+import Topjumbo from './Topjumbo';
+import GalleryHeader from './GalleryHeader';
 
 function App() {
   return (
 	  <>
 	  <Topnav/>
 	  <Jumbo/>
+	  <GalleryHeader/>
+	  <Gallery/>
 	  <Section />
 	  <Footer/>
 	  

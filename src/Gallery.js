@@ -1,4 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Container from 'react-bootstrap/Container';
 import React from 'react';
 import abrahamOne from './abrahamOne.jpg';
 import abrahamThree from './abrahamThree.jpg';
@@ -75,13 +76,16 @@ const imageList = [
 
 	return (
 				    <>
-				      <Carousel fade data-bs-theme="dark"  id="section4" style={{width: "100%", height: "80%"}}>
+		
+		<Container className="d-flex justify-content-center align-items-center">
+				      <Carousel fade data-bs-theme="dark"  id="section4" style={{width: "100%", height: "100%"}}>
 					{imageList.map((imageUrl, index) => (
 							  <Carousel.Item key={index} interval={1000}>
 							    <img className="mx-auto d-block" style={myStyle} src={imageUrl} alt={`Slide ${index + 1}`} />
 							  </Carousel.Item>
 							))}
 				      </Carousel>
+		</Container>
 				    </>
 				  );
 	}

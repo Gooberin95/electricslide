@@ -1,7 +1,8 @@
 {
   "files": {
-    "main.css": "/electricslide/static/css/main.77b05db5.css",
-    "main.js": "/electricslide/static/js/main.0809041b.js",
+    "main.css": "/electricslide/static/css/main.58160f70.css",
+    "main.js": "/electricslide/static/js/main.abe9bafe.js",
+    "static/media/homeproject.mp4": "/electricslide/static/media/homeproject.d5ba73be7b16158c3ebc.mp4",
     "static/media/thumbnail_image26.jpg": "/electricslide/static/media/thumbnail_image26.7837787f2dff7aab28fe.jpg",
     "static/media/thumbnail_image41.jpg": "/electricslide/static/media/thumbnail_image41.3796c36d070ea64fadd4.jpg",
     "static/media/thumbnail_image27.jpg": "/electricslide/static/media/thumbnail_image27.a701979c1facaeb0e4e6.jpg",
@@ -26,7 +27,6 @@
     "static/media/thumbnail_image46.jpg": "/electricslide/static/media/thumbnail_image46.74b669448326f571346b.jpg",
     "static/media/thumbnail_image36.jpg": "/electricslide/static/media/thumbnail_image36.1105068015cc170d3f7b.jpg",
     "static/media/kitchen.jpg": "/electricslide/static/media/kitchen.3d4c29f7b024a7569c8f.jpg",
-    "static/media/abrahamSeven.jpg": "/electricslide/static/media/abrahamSeven.e8ad622b1edefe959168.jpg",
     "static/media/thumbnail_image35.jpg": "/electricslide/static/media/thumbnail_image35.84f2287fdbe1784a8ab1.jpg",
     "static/media/thumbnail_image42.jpg": "/electricslide/static/media/thumbnail_image42.321b1ee53e15256df0da.jpg",
     "static/media/thumbnail_image25.jpg": "/electricslide/static/media/thumbnail_image25.ce384121ba085c4b36e8.jpg",
@@ -34,11 +34,11 @@
     "static/media/thumbnail_image24.jpg": "/electricslide/static/media/thumbnail_image24.ae685a77fb78b9b8c9d3.jpg",
     "static/media/abrahamThree.jpg": "/electricslide/static/media/abrahamThree.d9273c23c74ccc1187f1.jpg",
     "index.html": "/electricslide/index.html",
-    "main.77b05db5.css.map": "/electricslide/static/css/main.77b05db5.css.map",
-    "main.0809041b.js.map": "/electricslide/static/js/main.0809041b.js.map"
+    "main.58160f70.css.map": "/electricslide/static/css/main.58160f70.css.map",
+    "main.abe9bafe.js.map": "/electricslide/static/js/main.abe9bafe.js.map"
   },
   "entrypoints": [
-    "static/css/main.77b05db5.css",
-    "static/js/main.0809041b.js"
+    "static/css/main.58160f70.css",
+    "static/js/main.abe9bafe.js"
   ]
 }

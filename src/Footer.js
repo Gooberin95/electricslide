@@ -1,19 +1,22 @@
 import React from 'react';
 import Nav from 'react-bootstrap/Nav'
-import { FaBoltLightning } from "react-icons/fa6";
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
-
+import { SiNextdoor } from 'react-icons/si';
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa6';
 
 function Footer() {
 	    return (
 		            <>
-		                
-		                    <Navbar style={{ backgroundColor: "rgb(43,48,25)", height: "60px", marginTop: "100px" }}>
-		                        <Container className="justify-content-between align-items-center">
-		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#">206-945-1830</Nav.Link>
-		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"> © 2024 Visionary GC LLC. All Rights Reserved <FaBoltLightning /></Nav.Link>
-		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#">Abrahamreyes1991@yahoo.com</Nav.Link>
+		                 
+		                    <Navbar style={{ height: "60px", marginTop: "100px" }} bg="dark" data-bs-theme="dark">
+		                        <Container className="justify-content-center">
+		    <Nav>
+		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"><FaInstagram/></Nav.Link>
+		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"> <FaFacebook/></Nav.Link>
+		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"><SiNextdoor/></Nav.Link>
+		    </Nav>
 		                        </Container>
 		                    </Navbar>
 		            </>

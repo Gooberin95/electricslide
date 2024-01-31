@@ -18,7 +18,7 @@ function Section() {
 		            <div className={styles['column-66']}>
 		              <h1 className={styles['xlarge-font']}><b>About</b></h1>
 		              <h1 className={styles['large-font']} style={{ color: "orange" }}><b>Why hire us?</b></h1>
-		              <p><span style={{ fontSize: "36px" }}>Jobs done right the first time.</span></p><p>{aboutdata}</p>
+		              <p><span style={{ fontSize: "24px" }}>Jobs done right the first time.</span></p><p>{aboutdata}</p>
 		              <button className={styles.button}>Hire us now</button>
 		            </div>
 		            <div className={styles['column-33']}>
@@ -46,7 +46,7 @@ function Section() {
 		            <div className={styles['column-66']}>
 		              <h1 className={styles['xlarge-font']}><b>Estimates</b></h1>
 		              <h1 className={styles['large-font']} style={{ color: "orange" }}><b>Curious what estimates cost?</b></h1>
-		              <p><span style={{ fontSize: "36px" }}>Estimates</span></p> <p> {estimatesdata}</p>
+		              <p><span style={{ fontSize: "24px" }}>Pricing</span></p> <p> {estimatesdata}</p>
 		              <button className={styles.button}>Hire us now</button>
 		            </div>
 		            <div className={styles['column-33']}>

@@ -11,7 +11,7 @@ function Topnav() {
 					<>
 					<Navbar sticky="top" expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
 					 <Container>
-					 <Navbar.Brand style={{color: "#ff9900", fontFamily: "Trirong, serif"}}>
+					 <Navbar.Brand style={{color: "#ff9900"}}>
 					 Visionary GC LLC	
 					</Navbar.Brand>
 					<Navbar.Toggle aria-controls="basic-navbar-nav"/>

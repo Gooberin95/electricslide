@@ -13,9 +13,9 @@ function Footer() {
 		                    <Navbar style={{ height: "60px", marginTop: "100px" }} bg="dark" data-bs-theme="dark">
 		                        <Container className="justify-content-center">
 		    <Nav>
-		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"><FaInstagram/></Nav.Link>
-		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"> <FaFacebook/></Nav.Link>
-		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="#"><SiNextdoor/></Nav.Link>
+		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="https://nextdoor.com/profile/87988298/"><FaInstagram/></Nav.Link>
+		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="https://nextdoor.com/profile/87988298/"> <FaFacebook/></Nav.Link>
+		                            <Nav.Link style={{ marginRight: "20px", marginLeft: "20px", color: "white" }} href="https://nextdoor.com/profile/87988298/"><SiNextdoor/></Nav.Link>
 		    </Nav>
 		                        </Container>
 		                    </Navbar>

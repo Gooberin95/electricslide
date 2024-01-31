@@ -1,6 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Container from 'react-bootstrap/Container';
 import React from 'react';
+import deckfix from './deckfix.jpeg';
 import abrahamOne from './abrahamOne.jpg';
 import abrahamThree from './abrahamThree.jpg';
 import abrahamFive from './abrahamFive.jpg';
@@ -33,6 +34,7 @@ import fourtyseven from './thumbnail_image47.jpg';
 
 
 const imageList = [
+	  deckfix,
 	  abrahamOne,
 	  abrahamThree,
 	  abrahamFive,
@@ -63,11 +65,9 @@ const imageList = [
 ];
 	function Gallery() {
 		  const myStyle = {
-			      height: '100%',
-			      width: '60%',
-			      marginTop: "20px",
-			     
-			      border: "solid grey"
+			      height: '80%',
+			      width: '80%', 
+			      border: "white"
 			     
 			    };
 		
@@ -77,8 +77,8 @@ const imageList = [
 	return (
 				    <>
 		
-		<Container className="d-flex justify-content-center align-items-center">
-				      <Carousel fade data-bs-theme="dark"  id="section4" style={{width: "100%", height: "100%"}}>
+		<Container fluid className="d-flex justify-content-center align-items-center" style={{ paddingTop: "20px", paddingBottom: "20px", backgroundColor: "#f1f1f1"}}>
+				      <Carousel fade data-bs-theme="dark"  id="section4" style={{width: "70%", height: "70%"}}>
 					{imageList.map((imageUrl, index) => (
 							  <Carousel.Item key={index} interval={1000}>
 							    <img className="mx-auto d-block" style={myStyle} src={imageUrl} alt={`Slide ${index + 1}`} />

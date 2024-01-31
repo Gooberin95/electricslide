@@ -17,6 +17,7 @@ function App() {
 	  <Topnav/>
 	  <Jumbo/>
 	  <Section />
+	  <GalleryHeader/>
 	  <Gallery/>
 	  <Footer/>
 	  
